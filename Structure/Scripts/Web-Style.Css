@@ -1,0 +1,56 @@
+/* {Website Font} */
+@Import Url("https://fonts.googleapis.com/css?family=Montserrat:500");
+
+/* {Root Part} */
+* {
+    Box-Sizing: Border-Box;
+    Margin: 0;
+    Padding: 0;
+    Background-Color: #24252A;
+}
+
+Li, A, Button {
+    Font-Family: "Montserrat", Sans-Serif;
+    Font-Weight: 500;
+    Font-Size: 16Px;
+    Color: #edf0f1;
+    Text-Decoration: None;
+}
+
+Header {
+    Display: Flex;
+    Justify-Content: Flex-End;
+    Align-Items: Center;
+    Padding: 30Px 10%;
+}
+
+Button {
+    Margin-Left: 20Px;
+    Padding: 9Px 25Px;
+    Background-Color: RGBA(128, 128, 128);
+    Border: None;
+    Border-Radius: 15Px;
+    Cursor: Pointer;
+    Transition: All 0.3S Ease 0S;
+}
+
+.Links {
+    List-Style: None;
+}
+
+.Links Li {
+    Display: Inline-Block;
+    Padding: 0Px 20Px;
+}
+
+.Links Li A {
+    Transition: All 0.3S Ease 0S;
+}
+
+.Links Li A:Hover {
+    Color: gray;
+}
+
+Button:Hover {
+    Background-Color: RGBA(100, 100, 100);
+}
